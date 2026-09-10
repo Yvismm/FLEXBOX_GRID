@@ -1,0 +1,27 @@
+
+.topo {
+  display: grid;
+  height: 200px;
+  grid-template-columns: 200px 400px 200px ;
+  background-color: rgb(20, 224, 88);
+  gap: 10px 10px;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+}
+
+.menu{
+    background-color: rgb(108, 50, 126);
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    display: grid;
+    column-gap: 30px;
+
+}
+.topo div {
+  background-color: #ff0404;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
