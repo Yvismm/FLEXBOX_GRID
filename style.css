@@ -15,7 +15,7 @@
     grid-template-columns: auto auto auto auto;
     justify-content: center;
     display: grid;
-    column-gap: 30px;
+    column-gap: 20px;
 
 }
 .topo div {
@@ -25,3 +25,18 @@
   text-align: center;
 }
 
+.sessao{
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px 20px;
+}
+
+.sessao div{
+  background-color: blue;
+}
+
+#d1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
